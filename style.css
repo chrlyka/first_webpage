@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-family:'Roboto',sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+.header, .headcontent, .footer{
+    background-color: #1F2937; 
+    color: #F9FAF8;
+    font-size: 18px;
+}
+a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.headcontent .title{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.logotext{
+    font-size: 24px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:25px 200px;
+}
+ul{
+    display: flex;
+    gap: 8px;
+}
+.headcontent{
+    display: flex;
+    padding:50px 200px;
+}
+.herotext{
+    display: flex;
+    flex-direction: column;
+}
+.headbutton{
+    margin-top: 15px;
+    border-color: #3882F6;
+}
+.quotecontainer{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 300px;
+}
+.quote{
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+}
+.name{
+    align-self: flex-end;
+}
+.information .title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.sign{
+    margin: 100px 200px;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    color: white;
+    font-size: medium;
+    border-radius:25px; 
+    display: flex; 
+    justify-content: space-evenly; 
+}
+.sign .title{
+    font-weight: bold;
+    font-size: large;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    width: 100px;
+    border-radius: 8px;
+} 
+
+.mainimage{
+    width: 45%;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information{
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.images{
+    display: flex;
+    gap: 25px;
+}
+.img{
+    margin: 25px;
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+    border: #3882F6 solid 2px;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card .text{
+    width: 165px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 300px;
+}
